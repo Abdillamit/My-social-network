@@ -99,7 +99,7 @@ section.dark .card .imgText .h3 .span{
   transition: 0.5s;
 }
 
-.whatsapp{
+.telegram{
   position: relative;
   width: 50px;
   height: 50px;
@@ -133,7 +133,7 @@ section.dark .card .sci .li .whatsapp{
   background: #404852;
 }
 
-section.dark .card .sci .li .whatsapp{
+section.dark .card .sci .li .telegram{
   background: #404852;
 }
 section.dark .card .sci .li .github{
@@ -142,7 +142,7 @@ section.dark .card .sci .li .github{
 .whatsapp:hover {
   color: #fff;
 }
-.whatsapp:hover {
+.telegram:hover {
   color: #fff;
 }
 .github:hover {
@@ -167,7 +167,7 @@ section.dark .card .sci .li .github{
   transform: scale(1);
 }
 
-.whatsapp:before {
+.telegram:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -177,7 +177,7 @@ section.dark .card .sci .li .github{
   transform: scale(0);
   transition: 0.5s;
 }
-.whatsapp:hover:before {
+.telegram:hover:before {
   transform: scale(1);
 }
 .github:before {
