@@ -83,22 +83,6 @@ section.dark .card .imgText .h3 .span{
 .li {
   list-style: none;
 }
-
-/* .link {
-  position: relative;
-  width: 50px;
-  height: 50px;
-  background: #e9f5ff;
-  color: #2fa1ff;
-  margin: 0 5px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
-  border-radius: 50%;
-  font-size: 20px;
-  transition: 0.5s;
-} */
 .whatsapp{
   position: relative;
   width: 50px;
@@ -115,12 +99,12 @@ section.dark .card .imgText .h3 .span{
   transition: 0.5s;
 }
 
-.instagram{
+.telegram{
   position: relative;
   width: 50px;
   height: 50px;
   background: #e9f5ff;
-  color: #c13584;
+  color: #2fa1ff;
   margin: 0 5px;
   display: flex;
   justify-content: center;
@@ -149,7 +133,7 @@ section.dark .card .sci .li .whatsapp{
   background: #404852;
 }
 
-section.dark .card .sci .li .instagram{
+section.dark .card .sci .li .telegram{
   background: #404852;
 }
 section.dark .card .sci .li .github{
@@ -158,7 +142,7 @@ section.dark .card .sci .li .github{
 .whatsapp:hover {
   color: #fff;
 }
-.instagram:hover {
+.telegram:hover {
   color: #fff;
 }
 .github:hover {
@@ -183,17 +167,17 @@ section.dark .card .sci .li .github{
   transform: scale(1);
 }
 
-.instagram:before {
+.telegram:before {
   content: "";
   position: absolute;
   width: 100%;
   height: 100%;
-  background: #c13584;
+  background: #2fa1ff;
   border-radius: 50%;
   transform: scale(0);
   transition: 0.5s;
 }
-.instagram:hover:before {
+.telegram:hover:before {
   transform: scale(1);
 }
 .github:before {
